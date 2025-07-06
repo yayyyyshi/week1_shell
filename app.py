@@ -17,7 +17,7 @@ scaler = joblib.load('models/scaler.pkl')
 
 # ---- Sidebar Branding ----
 with st.sidebar:
-    st.image("images\Fire relief - Ecosystems not emissions poster.png", width=120)
+    st.image("images/Fire relief - Ecosystems not emissions poster.png", width=120)
     st.markdown("### Developed by **Yashika Verma**")
     st.markdown("🧪 AICTE Internship — GHG Emissions Modeling")
     st.markdown("🔗 [GitHub](https://github.com/yayyyyshi/week1_shell)")
